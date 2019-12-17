@@ -93,25 +93,14 @@ footer p {
     color: white;
 }
 
-div.img-block {
-    position: relative;
-    width: 200px;
-    display: inline-grid;
-}
-
-div.img-block img {
-    width: 200px;
-}
-
-div.img-block p {
+p.img-text {
     position: absolute;
-    bottom: 5px;
-    left: 0;
-    width: 200px;
+    bottom: 20px;
+    width: 210px;
     z-index: 10;
     background-color: #4aaaa5;
     color: white;
     padding: 5px;
     text-align: center;
-    box-sizing: border-box;
+    margin-left: 20px;
 }
