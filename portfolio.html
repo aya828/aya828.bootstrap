@@ -5,66 +5,59 @@
     <title>Portfolio</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="body-border">
-        <div class="header">
-            <header class="links">
-                <a id="about-link" href="index.html">About</a>
-                <a id="portfolio-link" href="portfolio.html">Portfolio</a>
-                <a id="contact-link" href="contact.html">Contact</a>
-            </header>
-        </div>
 
-        <div class="name">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <h1>Aya Yoshida</h1>
-        </div>
-
-        <div id="main-content">
-
-            <h2>Portfolio</h2>
-
-            <hr>
-
-            <div class="images">
-
-                <div class="img-block">
-                    <img src="assets/images/IMG_0742.jpg" />
-                    <p>Passed Out</p>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h2>Portfolio</h2>
                 </div>
-
-                <div class="img-block">
-                    <img src="assets/images/IMG_1043.jpg" />
-                    <p>Happy</p>
+                <hr width="1100" />
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img class="port-img" src="assets/images/IMG_0742.jpg" class="rounded float-left" width="250" />
+                        <p>Passed Out</p>
+                    <img class="port-img" src="assets/images/IMG_0962.jpg" class="rounded float-right" width="250" />
+                        <p>What?</p>
                 </div>
-
-                <div class="img-block">
-                    <img src="assets/images/IMG_0962.jpg" />
-                    <p>What?</p>
+                <div class="col-4">
+                    <img class="port-img" src="assets/images/IMG_1043.jpg" class="rounded float-left" width="250" />
+                        <p>Happy</p>
+                    <img class="port-img" src="assets/images/IMG_1224.jpg" class="rounded float-right" width="250" />
+                        <p>Roarrr!!</p>
                 </div>
-
-                <div class="img-block">
-                    <img src="assets/images/IMG_1275.jpg" />
-                    <p>Tired</p>
-                </div>
-
-                <div class="img-block">
-                    <img src="assets/images/IMG_1243.jpg" />
-                    <p>Happy Halloween!</p>
-                </div>
-
-                <div class="img-block">
-                    <img src="assets/images/IMG_1224.jpg" />
-                    <p>Roarrrr!</p>
+                <div class="col-4">
+                    <img class="port-img" src="assets/images/IMG_1243.jpg" class="rounded float-left" width="250" />
+                        <p>Happy Halloween!</p>
+                    <img class="port-img" src="assets/images/IMG_1275.jpg" class="rounded float-right" width="250" />
+                        <p>Tired</p>
                 </div>
             </div>
         </div>
-
-        <footer>
-            <p>Posted by: Aya Yoshida</p>
-        </footer>
     
-    </div>
-</body>
-</html>
+        <footer>
+            <p>Posted By: Aya Yoshida</p>
+        </footer>
+    </body>
+    </html>
