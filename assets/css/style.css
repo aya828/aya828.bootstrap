@@ -6,14 +6,19 @@ h1, h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-h1 {
+nav h1 {
     display: inline-table;
     border: 1px solid #4aaaa5;
     background-color: #4aaaa5;
     padding-bottom: 4px;
+    margin-top: 20px;
     text-align: center;
     margin-left: 150px;
-    margin-bottom: 0px;
+    margin-bottom: -8px;
+}
+
+nav h1{
+    float: left;
 }
 
 h2 {
@@ -22,12 +27,12 @@ h2 {
     padding-top: 10px;
 }
 
-a.nav-link {
-    
+ul.ml-auto {
+    padding-right: 150px;
 }
 
-li.class-item {
-    float: right;
+a.nav-link {
+    border-right: 0.5px solid #666666;
 }
 
 div.container {
