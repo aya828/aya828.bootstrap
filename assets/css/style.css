@@ -39,7 +39,7 @@ div.container {
     border: 1px solid white;
     background-color: white;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 #baxter {
@@ -86,11 +86,20 @@ footer p {
     color: white;
 }
 
+/* Img for portfolio*/
+div img.port-img {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
 /* Text on images for portfolio */
-p.img-text {
+.img-text {
     position: absolute;
-    bottom: 20px;
-    width: 210px;
+    bottom: 30px;
+    width: 87.5%;
     z-index: 10;
     background-color: #4aaaa5;
     color: white;
