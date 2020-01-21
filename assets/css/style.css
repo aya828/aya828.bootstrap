@@ -112,7 +112,7 @@ div.img-block div p.img-text {
     left: 0;
     bottom: 10px;
     width: 100%;
-    z-index: 10;
+    /* z-index: 20; */
     background-color: #4aaaa5;
     color: white;
     padding: 5px;
